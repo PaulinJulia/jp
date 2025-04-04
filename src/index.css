@@ -1,3 +1,34 @@
+:root {
+  --light-blue: #cdedf6;
+  --lavender: #d8cff5;
+  --powder-blue: #d6efff;
+  --steel-blue: #4a6c8a;
+  --rosewood: #874c62;
+  --deep-mauve: #6b5479;
+  --white: rgb(248, 244, 244);
+  --black: rgb(25, 24, 24);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+body {
+  background-color: var(--lavender);
+}
+
+.hero-image {
+  /* background-image: url("image/overview.jpg"); */
+  background-color: var(--deep-mauve);
+  height: 300px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
 /* :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
