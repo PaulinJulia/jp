@@ -3,7 +3,7 @@ import { ProjectItem } from "../components/ProjectItem";
 import { Header } from "../components/Header";
 import { Footer } from "../components/Footer";
 
-export const HomeRoute = () => {
+export const ProjectRoute = () => {
   return (
     <>
       <Header />
@@ -25,4 +25,4 @@ export const HomeRoute = () => {
       <Footer />
     </>
   );
-};
+}

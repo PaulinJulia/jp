@@ -4,9 +4,8 @@ export const ProjectItem = ({ project, onSelected }: ProjectItemProp) => {
   return (
     <>
       <ul>
-        <li>
+        <li onClick={() => onSelected(project.id)}>
           <p>{project.title}</p>
-          <button onClick={() => onSelected(project.id)}>Välj</button>
         </li>
       </ul>
     </>
