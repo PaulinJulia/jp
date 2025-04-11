@@ -1,4 +1,4 @@
-import { ProjectItemProp } from "../types/types";
+import { ProjectItemProp } from "@/types/types";
 
 export const ProjectItem = ({ project, onSelected }: ProjectItemProp) => {
   return (

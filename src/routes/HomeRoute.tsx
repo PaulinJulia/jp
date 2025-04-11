@@ -1,7 +1,7 @@
-import projects from "../data.json";
-import { ProjectItem } from "../components/ProjectItem";
-import { Header } from "../components/Header";
-import { Footer } from "../components/Footer";
+import projects from "@/data.json";
+import { ProjectItem } from "@/components/ProjectItem";
+import { Header } from "@/components/Header";
+import { Footer } from "@/components/Footer";
 
 export const HomeRoute = () => {
   return (

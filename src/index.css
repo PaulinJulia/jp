@@ -1,10 +1,10 @@
 :root {
-  --light-blue: #cdedf6;
-  --lavender: #d8cff5;
-  --powder-blue: #d6efff;
-  --steel-blue: #4a6c8a;
-  --rosewood: #874c62;
-  --deep-mauve: #6b5479;
+  --lavender: #D17CFE;
+  --blue: #00A9FE;
+  --mint-green: #00E1A9;
+  --yellow: #FFDC11;
+  --orange: #FE7531;
+  --pink: #FE65CF;
   --white: rgb(248, 244, 244);
   --black: rgb(25, 24, 24);
 }
@@ -29,7 +29,7 @@ main {
 
 .hero-image {
   /* background-image: url("image/overview.jpg"); */
-  background-color: var(--deep-mauve);
+  background-color: var(--black);
   height: 300px;
   background-position: center;
   background-repeat: no-repeat;
