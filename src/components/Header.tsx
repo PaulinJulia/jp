@@ -1,13 +1,31 @@
+import { useState } from "react";
 import HamburgerMenuIcon from "../assets/hamburger-menu-icon.png";
+import { RainbowText } from "./RainbowText";
+import styles from "./Header.module.css";
 
 export const Header = () => {
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
+
+  const toggleMenu = () => {
+    setIsMenuOpen(!isMenuOpen);
+  };
+
   return (
     <>
       <header>
-        <div className="hero-image">
+        <div className={styles["hero-image"]}>
           <nav>
-            <img src={HamburgerMenuIcon} alt="burger-icon" width="30px"></img>
-            <ul>
+            <img
+              src={HamburgerMenuIcon}
+              alt="hamburger-menu-icon"
+              width="30px"
+              onClick={toggleMenu}
+            />
+            <ul
+              className={`${styles["menu-list"]} ${
+                isMenuOpen ? "" : styles.closed
+              }`}
+            >
               <li>
                 <a href="/">Start</a>
               </li>
@@ -22,7 +40,7 @@ export const Header = () => {
               </li>
             </ul>
           </nav>
-          <h1>Julia Paulin</h1>
+          <RainbowText text="Julia Paulin" />
         </div>
       </header>
     </>
