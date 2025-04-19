@@ -7,6 +7,8 @@
   --pink: #FE65CF;
   --white: rgb(248, 244, 244);
   --black: rgb(25, 24, 24);
+  --light-black: rgb(39, 39, 42);
+  --grey: rgb(161, 161, 170);
 }
 
 * {
@@ -16,7 +18,7 @@
 }
 
 body {
-  background-color: var(--lavender);
+  background-color: var(--light-black);
     min-height: 100vh;
 }
 main {

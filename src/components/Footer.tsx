@@ -6,9 +6,6 @@ export const Footer = () => {
   return (
     <>
       <footer>
-        <p style={{ display: "flex", justifyContent: "center" }}>
-          paulinjulia@gmail.com
-        </p>
         <div
           className="socials"
           style={{ display: "flex", justifyContent: "center" }}
@@ -35,6 +32,7 @@ export const Footer = () => {
             }}
           />
         </div>
+        <p className="">paulinjulia@gmail.com</p>
       </footer>
     </>
   );

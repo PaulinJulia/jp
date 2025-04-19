@@ -15,7 +15,7 @@
     "id": "3",
     "title": "Jobchaser",
     "description": "See job ads",
-    "image": ["renaissance.jpg"]
+    "image": ["src/assets/jobchaser.png"]
   },
   {
     "id": "4",
@@ -27,6 +27,6 @@
     "id": "5",
     "title": "Dashboard",
     "description": "Make notes, weather",
-    "image": ["renaissance.jpg"]
+    "image": ["src/assets/default dashboard.png"]
   }
 ]

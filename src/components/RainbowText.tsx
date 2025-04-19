@@ -9,10 +9,18 @@ export const RainbowText = ({ text }: { text: string }) => {
   ];
 
   return (
-    <h1>
+    <h1
+      style={{
+        display: "flex",
+        justifyContent: "center",
+        margin: "1rem",
+        fontSize: "5rem",
+        fontWeight: "bold",
+      }}
+    >
       {text.split("").map((char, i) => (
         <span key={i} style={{ color: colors[i % colors.length] }}>
-          {char}
+          {char === " " ? "\u00a0" : char}
         </span>
       ))}
     </h1>

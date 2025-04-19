@@ -9,4 +9,8 @@ export default defineConfig({
       "@": path.resolve(__dirname, "./src"),
     },
   },
+  server: {
+    host: "0.0.0.0", // Gör appen tillgänglig via din lokala IP
+    port: 5173, // Du kan ändra till valfri port om du vill
+  },
 });
