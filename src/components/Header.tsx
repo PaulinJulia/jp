@@ -1,46 +1,15 @@
-import { useState } from "react";
-import HamburgerMenuIcon from "../assets/hamburger-menu-icon.png";
 import { RainbowText } from "./RainbowText";
-import styles from "./Header.module.css";
+import styles from "@/components/Header.module.css";
+import { Navbar } from "./Navbar";
 
-export const Header = () => {
-  const [isMenuOpen, setIsMenuOpen] = useState(false);
-
-  const toggleMenu = () => {
-    setIsMenuOpen(!isMenuOpen);
-  };
-
+export const Header = ({ text }: { text: string }) => {
   return (
     <>
       <header>
         <div className={styles["hero-image"]}>
-          <nav>
-            <img
-              src={HamburgerMenuIcon}
-              alt="hamburger-menu-icon"
-              width="30px"
-              onClick={toggleMenu}
-            />
-            <ul
-              className={`${styles["menu-list"]} ${
-                isMenuOpen ? "" : styles.closed
-              }`}
-            >
-              <li>
-                <a href="/">Start</a>
-              </li>
-              <li>
-                <a href="/about">About</a>
-              </li>
-              <li>
-                <a href="/projects">Projects</a>
-              </li>
-              <li>
-                <a href="/contact">Contact</a>
-              </li>
-            </ul>
-          </nav>
-          <RainbowText text="Julia Paulin" />
+          <Navbar />
+          <RainbowText text={text} />
+          <p className={styles["title"]}>Fullstack developer</p>
         </div>
       </header>
     </>

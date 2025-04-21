@@ -13,26 +13,28 @@ export const Footer = () => {
           <FontAwesomeIcon
             icon={faEnvelope}
             style={{
-              fontSize: "3rem",
+              fontSize: "2rem",
               padding: "1rem",
             }}
           />
           <FontAwesomeIcon
             icon={faLinkedin}
             style={{
-              fontSize: "3rem",
+              fontSize: "2rem",
               padding: "1rem",
             }}
           />
           <FontAwesomeIcon
             icon={faGithub}
             style={{
-              fontSize: "3rem",
+              fontSize: "2rem",
               padding: "1rem",
             }}
           />
         </div>
-        <p className="">paulinjulia@gmail.com</p>
+        <p style={{ display: "flex", justifyContent: "center", margin: "1rem" }}>
+          paulinjulia@gmail.com
+        </p>
       </footer>
     </>
   );

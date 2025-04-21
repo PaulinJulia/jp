@@ -2,13 +2,15 @@ import projects from "@/data.json";
 import { ProjectItem } from "@/components/ProjectItem";
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
+import styles from "@/routes/ProjectRoute.module.css";
 
 export const ProjectRoute = () => {
+  const text = "My Projects!";
   return (
     <>
-      <Header />
+    <Header text={text} />
       <main>
-        <section>
+        <section className={styles["project-section"]}>
           <ul>
             {projects.map((project) => {
               return (
@@ -25,4 +27,4 @@ export const ProjectRoute = () => {
       <Footer />
     </>
   );
-}
+};

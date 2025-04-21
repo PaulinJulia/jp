@@ -13,8 +13,8 @@ export const RainbowText = ({ text }: { text: string }) => {
       style={{
         display: "flex",
         justifyContent: "center",
-        margin: "1rem",
-        fontSize: "5rem",
+        paddingTop: "3rem",
+        fontSize: "4rem",
         fontWeight: "bold",
       }}
     >

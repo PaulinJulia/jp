@@ -1,10 +1,10 @@
 import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
-import { HomeRoute } from "./routes/HomeRoute";
 import { ProjectRoute } from "./routes/ProjectRoute";
 import RootRoute from "./routes/RootRoute";
 import ErrorRoute from "./routes/ErrorRoute";
+import { HomeRoute, ContactRoute } from "@/routes/index"
 import "./index.css";
 
 const router = createBrowserRouter([
@@ -20,6 +20,10 @@ const router = createBrowserRouter([
       {
         path: "projects",
         element: <ProjectRoute />,
+      },
+      {
+        path: "contact",
+        element: <ContactRoute />,
       },
     ],
   },

@@ -1,10 +1,10 @@
 :root {
-  --lavender: #D17CFE;
-  --blue: #00A9FE;
-  --mint-green: #00E1A9;
-  --yellow: #FFDC11;
-  --orange: #FE7531;
-  --pink: #FE65CF;
+  --lavender: #d17cfe;
+  --blue: #00a9fe;
+  --mint-green: #00e1a9;
+  --yellow: #ffdc11;
+  --orange: #fe7531;
+  --pink: #fe65cf;
   --white: rgb(248, 244, 244);
   --black: rgb(25, 24, 24);
   --light-black: rgb(39, 39, 42);
@@ -19,7 +19,7 @@
 
 body {
   background-color: var(--light-black);
-    min-height: 100vh;
+  min-height: 100vh;
 }
 main {
   display: flex;

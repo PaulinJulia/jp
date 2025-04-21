@@ -5,7 +5,16 @@ export default function ErrorRoute() {
   console.error(error);
 
   return (
-    <main id="error-page">
+    <main
+      style={{
+        display: "flex",
+        flexDirection: "column",
+        alignItems: "center",
+        paddingTop: "3rem",
+        fontSize: "1rem",
+        fontWeight: "bold",
+      }}
+    >
       <h1>Error</h1>
       <p>Sorry, an unexpected error has occurred.</p>
       <p>
