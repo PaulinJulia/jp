@@ -1,5 +1,6 @@
 import { Footer } from "@/components/Footer";
 import { Header } from "@/components/Header";
+import { Link } from "react-router-dom";
 
 export const AboutRoute = () => {
   const text = "About";
@@ -29,6 +30,14 @@ export const AboutRoute = () => {
             internal tools or a sleek web interface. I'm all about making things
             that work well and look good.
           </p>
+        </div>
+        <div>
+          <Link
+            to="/contact"
+            style={{ textDecoration: "none", color: "var(--lavender)" }}
+          >
+            Contact Me
+          </Link>
         </div>
       </main>
       <Footer />
