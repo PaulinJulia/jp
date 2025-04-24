@@ -5,6 +5,7 @@
   justify-content: center;
   padding: 2rem;
   color: var(--white);
+  margin: 0 2rem;
 }
 
 .projects {
@@ -15,4 +16,13 @@
   padding: 2rem;
   color: var(--black);
   background-color: var(--black);
+}
+
+.projects-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  gap: 1rem;
 }

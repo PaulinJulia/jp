@@ -1,0 +1,32 @@
+.project-text {
+  color: var(--white);
+  font-weight: bold;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.project-article {
+  background-color: var(--black);
+}
+
+.projects-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  gap: 1rem;
+}
+
+.contact-text {
+  color: var(--white);
+  font-weight: bold;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+    background-color: var(--light-black);
+}

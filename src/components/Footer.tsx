@@ -15,6 +15,7 @@ export const Footer = () => {
             style={{
               fontSize: "2rem",
               padding: "1rem",
+              cursor: "pointer",
             }}
           />
           <FontAwesomeIcon
@@ -22,17 +23,26 @@ export const Footer = () => {
             style={{
               fontSize: "2rem",
               padding: "1rem",
+              cursor: "pointer",
             }}
+            onClick={() =>
+              window.open("https://www.linkedin.com/in/julia-paulin/", "_blank")
+            }
           />
           <FontAwesomeIcon
             icon={faGithub}
             style={{
               fontSize: "2rem",
               padding: "1rem",
+              cursor: "pointer",
             }}
+            onClick={() =>
+              window.open("https://github.com/PaulinJulia", "_blank")}
           />
         </div>
-        <p style={{ display: "flex", justifyContent: "center", margin: "1rem" }}>
+        <p
+          style={{ display: "flex", justifyContent: "center", margin: "1rem" }}
+        >
           paulinjulia@gmail.com
         </p>
       </footer>

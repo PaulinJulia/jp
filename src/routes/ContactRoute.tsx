@@ -1,33 +1,33 @@
+import { Footer } from "@/components/Footer";
 import { Header } from "@/components/Header";
 import { useState } from "react";
 
 export const ContactRoute = () => {
-    const [formData, setFormData] = useState({
-      name: "",
-      email: "",
-      message: "",
-    });
+  const [formData, setFormData] = useState({
+    name: "",
+    email: "",
+    message: "",
+  });
 
-    const text = "Contact Me!";
+  const text = "Contact Me";
 
-    const handleChange = (
-      e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>
-    ) => {
-      const { name, value } = e.target;
-      setFormData((prev) => ({ ...prev, [name]: value }));
-    };
+  const handleChange = (
+    e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>
+  ) => {
+    const { name, value } = e.target;
+    setFormData((prev) => ({ ...prev, [name]: value }));
+  };
 
-    const handleSubmit = (e: React.FormEvent) => {
-      e.preventDefault();
-      console.log("Form submitted:", formData);
-    };
+  const handleSubmit = (e: React.FormEvent) => {
+    e.preventDefault();
+    console.log("Form submitted:", formData);
+  };
 
   return (
     <>
-      <Header text={text}/>
+      <Header text={text} />
       <main>
         <div>
-          <h1>Contact</h1>
           <p>If you have any questions, feel free to reach out!</p>
           <form onSubmit={handleSubmit}>
             <div>
@@ -66,6 +66,7 @@ export const ContactRoute = () => {
           </form>
         </div>
       </main>
+      <Footer />
     </>
   );
 };

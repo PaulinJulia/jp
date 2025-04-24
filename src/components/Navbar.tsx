@@ -25,7 +25,7 @@ export const Navbar = () => {
           }`}
         >
           <li className={styles["menu-list-item"]}>
-            <a href="/">Start</a>
+            <a href="/">Home</a>
           </li>
           <li className={styles["menu-list-item"]}>
             <a href="/about">About</a>
