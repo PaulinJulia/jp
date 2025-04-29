@@ -1,12 +1,19 @@
-import projects from "@/data.json";
+import projects from "@/projectsData.json";
 import { ProjectItem } from "@/components/ProjectItem";
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
 import styles from "@/routes/ProjectRoute.module.css";
+import { useNavigate } from "react-router-dom";
 
 export const ProjectRoute = () => {
   const text = "Projects";
   const titleText = "For fun and learning";
+
+  const navigate = useNavigate();
+
+  const handleContact = () => {
+    navigate("/contact", { replace: true });
+  };
   return (
     <>
       <Header text={text} titleText={titleText} />
@@ -34,7 +41,10 @@ export const ProjectRoute = () => {
             })}
           </ul>
           <p>
-            <p className={styles["contact-text"]}>
+            <p
+              className={styles["contact-text"]}
+              onClick={() => handleContact()}
+            >
               For more information, please contact me.
             </p>
           </p>

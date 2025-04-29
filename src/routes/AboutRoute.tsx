@@ -1,6 +1,8 @@
 import { Footer } from "@/components/Footer";
 import { Header } from "@/components/Header";
 import { Link } from "react-router-dom";
+import feedback from "@/feedbackData.json";
+import styles from "@/routes/AboutRoute.module.css";
 
 export const AboutRoute = () => {
   const text = "About";
@@ -11,15 +13,7 @@ export const AboutRoute = () => {
       <Header text={text} titleText={titleText} />
       <main>
         <div>
-          <p
-            style={{
-              fontSize: "1.2rem",
-              padding: "2rem",
-              margin: "0 2rem",
-              backgroundColor: "var(--black)",
-              color: "var(--white)",
-            }}
-          >
+          <p className={styles["about-text"]}>
             Hi! I'm Julia, a fullstack JavaScript developer with a creative edge
             and a background in fashion and pattern making. After years of
             working hands-on in the fashion industry, I transitioned into tech
@@ -32,13 +26,19 @@ export const AboutRoute = () => {
           </p>
         </div>
         <div>
-          <Link
-            to="/contact"
-            style={{ textDecoration: "none", color: "var(--lavender)" }}
-          >
+          <Link to="/contact" className={styles["contact-link"]}>
             Contact Me
           </Link>
         </div>
+        <article>
+          <ul className={styles["feedback-list"]}>
+            {feedback.map((text) => (
+              <li key={text.id} className={styles["feedback-item"]}>
+                {text.description}
+              </li>
+            ))}
+          </ul>
+        </article>
       </main>
       <Footer />
     </>
