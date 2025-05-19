@@ -1,4 +1,5 @@
-import projects from "@/projectsData.json";
+import projects from "@/api/projectsData.json";
+import tech from "@/api/techData.json";
 import { ProjectItem } from "@/components/ProjectItem";
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
@@ -6,7 +7,7 @@ import styles from "@/routes/HomeRoute.module.css";
 
 export const HomeRoute = () => {
   const text = "Julia Paulin";
-  const titleText = "Fullstack developer";
+  const titleText = "Full-stack Developer";
 
   return (
     <>
@@ -43,7 +44,16 @@ export const HomeRoute = () => {
             </ul>
           </article>
           <article>
-            <p>Tech</p>
+            <ul>
+              {tech.map((tech) => {
+                return (
+                  <li key={tech.id}>
+                    <i className={tech.icon} style={{ color: "#F24E1E" }}></i>
+                    {tech.name}
+                  </li>
+                );
+              })}
+            </ul>
           </article>
         </section>
       </main>

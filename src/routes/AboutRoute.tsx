@@ -1,7 +1,7 @@
 import { Footer } from "@/components/Footer";
 import { Header } from "@/components/Header";
 import { Link } from "react-router-dom";
-import feedback from "@/feedbackData.json";
+import feedback from "@/api/feedbackData.json";
 import styles from "@/routes/AboutRoute.module.css";
 
 export const AboutRoute = () => {
