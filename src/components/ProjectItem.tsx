@@ -13,6 +13,7 @@ export const ProjectItem = ({ project, onSelected }: ProjectItemProp) => {
             src={project.image[0]}
             alt={project.title}
             className={styles["project-image"]}
+            title={project.title}
           />
           <p className={styles["project-description"]}>{project.description}</p>
         </li>

@@ -17,7 +17,7 @@
     "icon": "logos:nodejs-icon",
     "color": "#339933"
   },
-  { "id": 4, "name": "C#", "icon": "logos:csharp", "color": "#239120" },
+  { "id": 4, "name": "C#", "icon": "devicon:csharp", "color": "#239120" },
   { "id": 5, "name": "React.js", "icon": "logos:react", "color": "#61DAFB" },
   { "id": 6, "name": "Vue.js", "icon": "logos:vue", "color": "#42B883" },
   {
@@ -63,33 +63,30 @@
     "color": "#FF4C41"
   },
   { "id": 19, "name": "Figma", "icon": "logos:figma", "color": "#F24E1E" },
-  { "id": 20, "name": "Scrum", "icon": "logos:scrum", "color": "#FFFFFF" },
-  { "id": 21, "name": "SAFe", "icon": "logos:safe", "color": "#37BC9B" },
-  { "id": 22, "name": "Kanban", "icon": "logos:kanban", "color": "#0052CC" },
-  { "id": 23, "name": "Jira", "icon": "logos:jira", "color": "#0052CC" },
-  { "id": 24, "name": "Trello", "icon": "logos:trello", "color": "#0079BF" },
+  { "id": 20, "name": "Jira", "icon": "logos:jira", "color": "#0052CC" },
+  { "id": 21, "name": "Trello", "icon": "logos:trello", "color": "#0079BF" },
   {
-    "id": 25,
+    "id": 22,
     "name": "Confluence",
     "icon": "logos:confluence",
     "color": "#0052CC"
   },
   {
-    "id": 26,
+    "id": 24,
+    "name": "Jest",
+    "icon": "simple-icons:jest",
+    "color": "#C21325"
+  },
+  {
+    "id": 25,
+    "name": "Playwright",
+    "icon": "simple-icons:playwright",
+    "color": "#17A37F"
+  },
+  {
+    "id": 23,
     "name": "Azure DevOps",
-    "icon": "logos:azuredevops",
+    "icon": "logos:azure-devops",
     "color": "#0078D7"
-  },
-  {
-    "id": 27,
-    "name": "Unit Testing",
-    "icon": "logos:xunit",
-    "color": "#8A2BE2"
-  },
-  {
-    "id": 28,
-    "name": "e2e Testing",
-    "icon": "logos:cypress",
-    "color": "#17202C"
   }
 ]

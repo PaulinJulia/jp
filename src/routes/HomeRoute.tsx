@@ -45,15 +45,18 @@ export const HomeRoute = () => {
             </ul>
           </article>
           <article>
-            <ul>
+            <h3 className={styles["tech-stack-title"]}>Tools & Technologies</h3>
+            <ul className={styles["tech-stack-container"]}>
               {tech.map((tech) => (
-                <li key={tech.id} className="flex items-center gap-2">
-                  <Icon
-                    icon={tech.icon}
-                    width="24"
-                    height="24"
-                    style={{ color: tech.color }}
-                  />
+                <li key={tech.id} className={styles["tech-stack"]}>
+                  <span title={tech.name} aria-label={tech.name}>
+                    <Icon
+                      icon={tech.icon}
+                      width="24"
+                      height="24"
+                      style={{ color: tech.color }}
+                    />
+                  </span>
                 </li>
               ))}
             </ul>
