@@ -15,20 +15,34 @@
   },
   {
     "id": "3",
+    "title": "Chat",
+    "description": "Chat with SignalR",
+    "image": ["src/assets/chat.png"],
+    "url": "https://github.com/PaulinJulia/signalR"
+  },
+  {
+    "id": "4",
+    "title": "Stock market",
+    "description": "Stock inspiration",
+    "image": ["src/assets/stock-project.png"],
+    "url": "https://github.com/PaulinJulia/my-vue"
+  },
+  {
+    "id": "5",
     "title": "Jobchaser",
     "description": "See job ads",
     "image": ["src/assets/jobchaser.png"],
     "url": "https://jobchaser987.netlify.app/"
   },
   {
-    "id": "4",
+    "id": "6",
     "title": "Todo list",
     "description": "Todo list",
     "image": ["src/assets/Todo.png"],
     "url": "https://github.com/PaulinJulia/Todo"
   },
   {
-    "id": "5",
+    "id": "7",
     "title": "Dashboard",
     "description": "Make notes, weather",
     "image": ["src/assets/default-dashboard.png"],

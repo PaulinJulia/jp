@@ -4,6 +4,7 @@ import { ProjectItem } from "@/components/ProjectItem";
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
 import styles from "@/routes/HomeRoute.module.css";
+import { Icon } from "@iconify/react";
 
 export const HomeRoute = () => {
   const text = "Julia Paulin";
@@ -45,14 +46,16 @@ export const HomeRoute = () => {
           </article>
           <article>
             <ul>
-              {tech.map((tech) => {
-                return (
-                  <li key={tech.id}>
-                    <i className={tech.icon} style={{ color: "#F24E1E" }}></i>
-                    {tech.name}
-                  </li>
-                );
-              })}
+              {tech.map((tech) => (
+                <li key={tech.id} className="flex items-center gap-2">
+                  <Icon
+                    icon={tech.icon}
+                    width="24"
+                    height="24"
+                    style={{ color: tech.color }}
+                  />
+                </li>
+              ))}
             </ul>
           </article>
         </section>
