@@ -6,7 +6,7 @@ import styles from "@/components/Footer.module.css";
 export const Footer = () => {
   return (
     <>
-      <footer>
+      <footer className={styles["footer-container"]}>
         <div
           className="socials"
           style={{ display: "flex", justifyContent: "center" }}
