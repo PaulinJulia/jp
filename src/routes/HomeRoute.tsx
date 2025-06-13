@@ -10,6 +10,24 @@ export const HomeRoute = () => {
   const text = "Julia Paulin";
   const titleText = "Full-stack Developer";
 
+  const handleSelectedImage = (projectId: string) => {
+    const project = projects.find((project) => project.id === projectId);
+    if (project && project.url) {
+      window.open(project.url, "_blank");
+    } else {
+      console.error("URL not available for this project.");
+    }
+  };
+
+  const handleSelectedCard = (projectId: string) => {
+    const project = projects.find((project) => project.id === projectId);
+    if (project && project.github) {
+      window.open(project.github, "_blank");
+    } else {
+      console.error("URL not available for this project.");
+    }
+  };
+
   return (
     <>
       <Header text={text} titleText={titleText} />
@@ -32,13 +50,8 @@ export const HomeRoute = () => {
                   <ProjectItem
                     key={project.id}
                     project={project}
-                    onSelected={() => {
-                      if (project.url) {
-                        window.open(project.url, "_blank");
-                      } else {
-                        console.error("URL not available for this project.");
-                      }
-                    }}
+                    onSelectedCard={handleSelectedCard}
+                    onSelectedImage={handleSelectedImage}
                   />
                 );
               })}

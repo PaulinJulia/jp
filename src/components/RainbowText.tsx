@@ -1,4 +1,7 @@
+import { useNavigate } from "react-router-dom";
+
 export const RainbowText = ({ text }: { text: string }) => {
+  const navigate = useNavigate();
   const colors = [
     "var(--lavender)",
     "var(--blue)",
@@ -17,6 +20,7 @@ export const RainbowText = ({ text }: { text: string }) => {
         fontSize: "4rem",
         fontWeight: "bold",
       }}
+      onClick={() => navigate("/")}
     >
       {text.split("").map((char, i) => (
         <span key={i} style={{ color: colors[i % colors.length] }}>

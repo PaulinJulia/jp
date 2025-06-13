@@ -7,5 +7,6 @@ export interface Project {
 
 export interface ProjectItemProp {
   project: Project;
-  onSelected: (id: string) => void;
+  onSelectedCard: (id: string) => void;
+  onSelectedImage: (id: string) => void;
 }

@@ -1,0 +1,15 @@
+.email-icon,
+.linkedin-icon,
+.github-icon {
+  font-size: 2rem;
+  padding: 1rem;
+  cursor: pointer;
+  color: var(--white);
+}
+
+.footer-text {
+  display: flex;
+  justify-content: center;
+  margin: 1rem;
+  color: var(--white);
+}

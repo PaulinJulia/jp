@@ -1,6 +1,7 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
+import styles from "@/components/Footer.module.css";
 
 export const Footer = () => {
   return (
@@ -10,41 +11,23 @@ export const Footer = () => {
           className="socials"
           style={{ display: "flex", justifyContent: "center" }}
         >
-          <FontAwesomeIcon
-            icon={faEnvelope}
-            style={{
-              fontSize: "2rem",
-              padding: "1rem",
-              cursor: "pointer",
-            }}
-          />
+          <FontAwesomeIcon icon={faEnvelope} className={styles["email-icon"]} />
           <FontAwesomeIcon
             icon={faLinkedin}
-            style={{
-              fontSize: "2rem",
-              padding: "1rem",
-              cursor: "pointer",
-            }}
+            className={styles["linkedin-icon"]}
             onClick={() =>
               window.open("https://www.linkedin.com/in/julia-paulin/", "_blank")
             }
           />
           <FontAwesomeIcon
             icon={faGithub}
-            style={{
-              fontSize: "2rem",
-              padding: "1rem",
-              cursor: "pointer",
-            }}
+            className={styles["github-icon"]}
             onClick={() =>
-              window.open("https://github.com/PaulinJulia", "_blank")}
+              window.open("https://github.com/PaulinJulia", "_blank")
+            }
           />
         </div>
-        <p
-          style={{ display: "flex", justifyContent: "center", margin: "1rem" }}
-        >
-          paulinjulia@gmail.com
-        </p>
+        <p className={styles["footer-text"]}>paulinjulia@gmail.com</p>
       </footer>
     </>
   );
