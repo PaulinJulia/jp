@@ -5,7 +5,37 @@
     "description": "Favorite recipes",
     "image": ["src/assets/guldkorn.png"],
     "url": "https://guldkornen.netlify.app/",
-    "github": "https://github.com/PaulinJulia/recipes"
+    "github": "https://github.com/PaulinJulia/recipes",
+    "tech": [
+      {
+        "id": "2",
+        "name": "TypeScript",
+        "icon": "logos:typescript-icon",
+        "color": "#3178C6",
+        "url": "https://www.typescriptlang.org/"
+      },
+      {
+        "id": "5",
+        "name": "React",
+        "icon": "logos:react",
+        "color": "#61DAFB",
+        "url": "https://react.dev/"
+      },
+      {
+        "id": "15",
+        "name": "CSS",
+        "icon": "logos:css-3",
+        "color": "#1572B6",
+        "url": ""
+      },
+      {
+        "id": "27",
+        "name": "Vite",
+        "icon": "logos:vitejs",
+        "color": "#646CFF",
+        "url": ""
+      }
+    ]
   },
   {
     "id": "2",
@@ -13,7 +43,51 @@
     "description": "Personalized workouts with AI.",
     "image": ["src/assets/guldkorn.png"],
     "url": "",
-    "github": "https://github.com/PaulinJulia/ai"
+    "github": "https://github.com/PaulinJulia/ai",
+    "tech": [
+      {
+        "id": "2",
+        "name": "TypeScript",
+        "icon": "logos:typescript-icon",
+        "color": "#3178C6",
+        "url": "https://www.typescriptlang.org/"
+      },
+      {
+        "id": "3",
+        "name": "Node.js",
+        "icon": "logos:nodejs-icon",
+        "color": "#339933",
+        "url": ""
+      },
+      {
+        "id": "5",
+        "name": "React",
+        "icon": "logos:react",
+        "color": "#61DAFB",
+        "url": "https://react.dev/"
+      },
+      {
+        "id": "8",
+        "name": "MongoDB",
+        "icon": "logos:mongodb-icon",
+        "color": "#47A248",
+        "url": "https://www.mongodb.com/"
+      },
+      {
+        "id": "14",
+        "name": "AWS",
+        "icon": "logos:aws",
+        "color": "#FF9900",
+        "url": "https://aws.amazon.com/?nc2=h_lg"
+      },
+      {
+        "id": "15",
+        "name": "CSS",
+        "icon": "logos:css-3",
+        "color": "#1572B6",
+        "url": ""
+      }
+    ]
   },
   {
     "id": "3",
@@ -21,7 +95,51 @@
     "description": "Chat with SignalR",
     "image": ["src/assets/chat.png"],
     "url": "https://signalrchat-kgrw.onrender.com/",
-    "github": "https://github.com/PaulinJulia/signalR"
+    "github": "https://github.com/PaulinJulia/signalR",
+    "tech": [
+      {
+        "id": "2",
+        "name": "TypeScript",
+        "icon": "logos:typescript-icon",
+        "color": "#3178C6",
+        "url": "https://www.typescriptlang.org/"
+      },
+      {
+        "id": "4",
+        "name": "C#",
+        "icon": "devicon:csharp",
+        "color": "#239120",
+        "url": ""
+      },
+      {
+        "id": "5",
+        "name": "React",
+        "icon": "logos:react",
+        "color": "#61DAFB",
+        "url": "https://react.dev/"
+      },
+      {
+        "id": "9",
+        "name": ".NET",
+        "icon": "logos:dotnet",
+        "color": "#512BD4",
+        "url": "https://dotnet.microsoft.com/en-us/"
+      },
+      {
+        "id": "12",
+        "name": "Docker",
+        "icon": "logos:docker-icon",
+        "color": "#2496ED",
+        "url": "https://www.docker.com/"
+      },
+      {
+        "id": "15",
+        "name": "CSS",
+        "icon": "logos:css-3",
+        "color": "#1572B6",
+        "url": ""
+      }
+    ]
   },
   {
     "id": "4",
@@ -29,7 +147,37 @@
     "description": "Stock inspiration",
     "image": ["src/assets/stock-project.png"],
     "url": "",
-    "github": "https://github.com/PaulinJulia/my-vue"
+    "github": "https://github.com/PaulinJulia/my-vue",
+    "tech": [
+      {
+        "id": "2",
+        "name": "TypeScript",
+        "icon": "logos:typescript-icon",
+        "color": "#3178C6",
+        "url": "https://www.typescriptlang.org/"
+      },
+      {
+        "id": "6",
+        "name": "Vue",
+        "icon": "logos:vue",
+        "color": "#42B883",
+        "url": "https://vuejs.org/"
+      },
+      {
+        "id": "15",
+        "name": "CSS",
+        "icon": "logos:css-3",
+        "color": "#1572B6",
+        "url": ""
+      },
+      {
+        "id": "27",
+        "name": "Vite",
+        "icon": "logos:vitejs",
+        "color": "#646CFF",
+        "url": ""
+      }
+    ]
   },
   {
     "id": "5",
@@ -37,7 +185,37 @@
     "description": "See job ads",
     "image": ["src/assets/jobchaser.png"],
     "url": "https://jobchaser987.netlify.app/",
-    "github": "https://github.com/PaulinJulia/jobchaser"
+    "github": "https://github.com/PaulinJulia/jobchaser",
+    "tech": [
+      {
+        "id": "2",
+        "name": "TypeScript",
+        "icon": "logos:typescript-icon",
+        "color": "#3178C6",
+        "url": "https://www.typescriptlang.org/"
+      },
+      {
+        "id": "5",
+        "name": "React",
+        "icon": "logos:react",
+        "color": "#61DAFB",
+        "url": "https://react.dev/"
+      },
+      {
+        "id": "16",
+        "name": "Tailwind",
+        "icon": "logos:tailwindcss-icon",
+        "color": "#38B2AC",
+        "url": "https://tailwindcss.com/"
+      },
+      {
+        "id": "28",
+        "name": "Redux Toolkit",
+        "icon": "logos:redux",
+        "color": "#764ABC",
+        "url": "https://redux-toolkit.js.org/"
+      }
+    ]
   },
   {
     "id": "6",
@@ -45,7 +223,37 @@
     "description": "Todo list",
     "image": ["src/assets/Todo.png"],
     "url": "",
-    "github": "https://github.com/PaulinJulia/Todo"
+    "github": "https://github.com/PaulinJulia/Todo",
+    "tech": [
+      {
+        "id": "2",
+        "name": "TypeScript",
+        "icon": "logos:typescript-icon",
+        "color": "#3178C6",
+        "url": "https://www.typescriptlang.org/"
+      },
+      {
+        "id": "26",
+        "name": "HTML",
+        "icon": "logos:html-5",
+        "color": "#E34F26",
+        "url": ""
+      },
+      {
+        "id": "15",
+        "name": "CSS",
+        "icon": "logos:css-3",
+        "color": "#1572B6",
+        "url": ""
+      },
+      {
+        "id": "27",
+        "name": "Vite",
+        "icon": "logos:vitejs",
+        "color": "#646CFF",
+        "url": ""
+      }
+    ]
   },
   {
     "id": "7",
@@ -53,6 +261,36 @@
     "description": "Make notes, weather",
     "image": ["src/assets/default-dashboard.png"],
     "url": "",
-    "github": "https://github.com/PaulinJulia/Dashboard"
+    "github": "https://github.com/PaulinJulia/Dashboard",
+    "tech": [
+      {
+        "id": "1",
+        "name": "JavaScript",
+        "icon": "logos:javascript",
+        "color": "#F7DF1E",
+        "url": ""
+      },
+      {
+        "id": "26",
+        "name": "HTML",
+        "icon": "logos:html-5",
+        "color": "#E34F26",
+        "url": ""
+      },
+      {
+        "id": "15",
+        "name": "CSS",
+        "icon": "logos:css-3",
+        "color": "#1572B6",
+        "url": ""
+      },
+      {
+        "id": "27",
+        "name": "Vite",
+        "icon": "logos:vitejs",
+        "color": "#646CFF",
+        "url": ""
+      }
+    ]
   }
 ]

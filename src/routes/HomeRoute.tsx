@@ -69,8 +69,8 @@ export const HomeRoute = () => {
                   >
                     <Icon
                       icon={tech.icon}
-                      width="24"
-                      height="24"
+                      width="32"
+                      height="32"
                       style={{ color: tech.color }}
                     />
                   </span>

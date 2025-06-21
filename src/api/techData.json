@@ -1,177 +1,198 @@
 [
   {
-    "id": 1,
+    "id": "1",
     "name": "JavaScript",
     "icon": "logos:javascript",
     "color": "#F7DF1E",
     "url": ""
   },
   {
-    "id": 2,
+    "id": "2",
     "name": "TypeScript",
     "icon": "logos:typescript-icon",
     "color": "#3178C6",
     "url": "https://www.typescriptlang.org/"
   },
   {
-    "id": 3,
+    "id": "3",
     "name": "Node.js",
     "icon": "logos:nodejs-icon",
     "color": "#339933",
     "url": ""
   },
   {
-    "id": 4,
+    "id": "4",
     "name": "C#",
     "icon": "devicon:csharp",
     "color": "#239120",
     "url": ""
   },
   {
-    "id": 5,
-    "name": "React.js",
+    "id": "5",
+    "name": "React",
     "icon": "logos:react",
     "color": "#61DAFB",
     "url": "https://react.dev/"
   },
   {
-    "id": 6,
-    "name": "Vue.js",
+    "id": "6",
+    "name": "Vue",
     "icon": "logos:vue",
     "color": "#42B883",
     "url": "https://vuejs.org/"
   },
   {
-    "id": 7,
+    "id": "7",
     "name": "PostgreSQL",
     "icon": "logos:postgresql",
     "color": "#336791",
     "url": "https://www.postgresql.org/"
   },
   {
-    "id": 8,
+    "id": "8",
     "name": "MongoDB",
     "icon": "logos:mongodb-icon",
     "color": "#47A248",
     "url": "https://www.mongodb.com/"
   },
   {
-    "id": 9,
+    "id": "9",
     "name": ".NET",
     "icon": "logos:dotnet",
     "color": "#512BD4",
     "url": "https://dotnet.microsoft.com/en-us/"
   },
   {
-    "id": 10,
+    "id": "10",
     "name": "GraphQL",
     "icon": "logos:graphql",
     "color": "#E10098",
     "url": "https://graphql.org/"
   },
   {
-    "id": 11,
+    "id": "11",
     "name": "Git",
     "icon": "logos:git-icon",
     "color": "#F05032",
     "url": "https://git-scm.com/"
   },
   {
-    "id": 12,
+    "id": "12",
     "name": "Docker",
     "icon": "logos:docker-icon",
     "color": "#2496ED",
     "url": "https://www.docker.com/"
   },
   {
-    "id": 13,
+    "id": "13",
     "name": "Kubernetes",
     "icon": "logos:kubernetes",
     "color": "#326CE5",
     "url": "https://kubernetes.io/"
   },
   {
-    "id": 14,
+    "id": "14",
     "name": "AWS",
     "icon": "logos:aws",
     "color": "#FF9900",
     "url": "https://aws.amazon.com/?nc2=h_lg"
   },
   {
-    "id": 15,
+    "id": "15",
     "name": "CSS",
     "icon": "logos:css-3",
     "color": "#1572B6",
     "url": ""
   },
   {
-    "id": 16,
+    "id": "16",
     "name": "Tailwind",
     "icon": "logos:tailwindcss-icon",
     "color": "#38B2AC",
     "url": "https://tailwindcss.com/"
   },
   {
-    "id": 17,
+    "id": "17",
     "name": "Bulma",
     "icon": "logos:bulma",
     "color": "#00D1B2",
     "url": "https://bulma.io/"
   },
   {
-    "id": 18,
+    "id": "18",
     "name": "TanStack",
     "icon": "logos:tanstack",
     "color": "#FF4C41",
     "url": "https://tanstack.com/"
   },
   {
-    "id": 19,
+    "id": "19",
     "name": "Figma",
     "icon": "logos:figma",
     "color": "#F24E1E",
     "url": ""
   },
   {
-    "id": 20,
+    "id": "20",
     "name": "Jira",
     "icon": "logos:jira",
     "color": "#0052CC",
     "url": "https://www.atlassian.com/software/jira"
   },
   {
-    "id": 21,
+    "id": "21",
     "name": "Trello",
     "icon": "logos:trello",
     "color": "#0079BF",
     "url": "https://trello.com/"
   },
   {
-    "id": 22,
+    "id": "22",
     "name": "Confluence",
     "icon": "logos:confluence",
     "color": "#0052CC",
     "url": "https://www.atlassian.com/software/confluence"
   },
   {
-    "id": 24,
+    "id": "23",
     "name": "Jest",
     "icon": "simple-icons:jest",
     "color": "#C21325",
     "url": "https://jestjs.io/"
   },
   {
-    "id": 25,
+    "id": "24",
     "name": "Playwright",
     "icon": "simple-icons:playwright",
     "color": "#17A37F",
     "url": "https://playwright.dev/"
   },
   {
-    "id": 23,
+    "id": "25",
     "name": "Azure DevOps",
-    "icon": "logos:azure-devops",
-    "color": "#0078D7",
+    "icon": "logos:azure",
+    "color": "#0078D4",
     "url": "https://azure.microsoft.com/en-us/products/devops"
+  },
+  {
+    "id": "26",
+    "name": "HTML",
+    "icon": "logos:html-5",
+    "color": "#E34F26",
+    "url": ""
+  },
+  {
+    "id": "27",
+    "name": "Vite",
+    "icon": "logos:vitejs",
+    "color": "#646CFF",
+    "url": ""
+  },
+  {
+    "id": "28",
+    "name": "Redux Toolkit",
+    "icon": "logos:redux",
+    "color": "#764ABC",
+    "url": "https://redux-toolkit.js.org/"
   }
 ]
