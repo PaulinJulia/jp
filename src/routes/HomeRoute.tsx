@@ -8,7 +8,7 @@ import { Icon } from "@iconify/react";
 
 export const HomeRoute = () => {
   const text = "Julia Paulin";
-  const titleText = "Full-stack Developer";
+  const titleText = "Fullstack Developer";
 
   const handleSelectedImage = (projectId: string) => {
     const project = projects.find((project) => project.id === projectId);

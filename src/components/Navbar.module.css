@@ -1,8 +1,9 @@
-
 .hamburger-menu-icon {
   cursor: pointer;
   display: block;
   padding: 1rem;
+  color: var(--white);
+  font-size: 2rem;
 }
 
 .menu-list {
@@ -12,11 +13,12 @@
   list-style: none;
   padding: 1rem;
   position: absolute;
-  top: 4em; 
+  top: 4em;
 }
 
 .menu-list.open {
   display: flex;
+  background-color: var(--light-black);
 }
 
 .menu-list-item a {

@@ -6,7 +6,7 @@
 .linkedin-icon,
 .github-icon {
   font-size: 2rem;
-  padding: 1rem;
+  padding: 2rem 1rem;
   cursor: pointer;
   color: var(--white);
 }
@@ -15,7 +15,7 @@
   display: flex;
   justify-content: center;
   margin-top: 1rem;
-  padding: 1rem;
+  padding: 0rem 1rem 2rem 1rem;
   color: var(--white);
   text-decoration: none;
 }

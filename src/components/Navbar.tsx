@@ -1,6 +1,7 @@
 import { useState } from "react";
-import HamburgerMenuIcon from "../assets/hamburger-menu-icon.png";
 import styles from "@/components/Navbar.module.css";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faBars } from "@fortawesome/free-solid-svg-icons";
 
 export const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -12,11 +13,10 @@ export const Navbar = () => {
   return (
     <>
       <nav className={styles["navbar"]}>
-        <img
-          src={HamburgerMenuIcon}
-          alt="hamburger-menu-icon"
+        <FontAwesomeIcon
+          title="hamburger-menu-icon"
+          icon={faBars}
           className={styles["hamburger-menu-icon"]}
-          width="30px"
           onClick={toggleMenu}
         />
         <ul

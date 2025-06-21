@@ -5,7 +5,7 @@
   margin: 1rem;
   border-radius: 1.2rem;
   background-color: var(--grey);
-  width: 300px;
+  width: 280px;
   height: 400px;
   border: 2px solid var(--black);
   transition: border-color 0.2s;
@@ -17,7 +17,7 @@
 }
 
 .project-image {
-  width: 300px;
+  width: 280px;
   height: 240px;
   object-fit: cover;
   border-top-left-radius: 1rem;

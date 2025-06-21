@@ -17,7 +17,7 @@ export const RainbowText = ({ text }: { text: string }) => {
         display: "flex",
         justifyContent: "center",
         paddingTop: "4rem",
-        fontSize: "4rem",
+        fontSize: "3.2rem",
         fontWeight: "bold",
       }}
       onClick={() => navigate("/")}
