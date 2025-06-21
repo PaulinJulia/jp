@@ -3,90 +3,175 @@
     "id": 1,
     "name": "JavaScript",
     "icon": "logos:javascript",
-    "color": "#F7DF1E"
+    "color": "#F7DF1E",
+    "url": ""
   },
   {
     "id": 2,
     "name": "TypeScript",
     "icon": "logos:typescript-icon",
-    "color": "#3178C6"
+    "color": "#3178C6",
+    "url": "https://www.typescriptlang.org/"
   },
   {
     "id": 3,
     "name": "Node.js",
     "icon": "logos:nodejs-icon",
-    "color": "#339933"
+    "color": "#339933",
+    "url": ""
   },
-  { "id": 4, "name": "C#", "icon": "devicon:csharp", "color": "#239120" },
-  { "id": 5, "name": "React.js", "icon": "logos:react", "color": "#61DAFB" },
-  { "id": 6, "name": "Vue.js", "icon": "logos:vue", "color": "#42B883" },
+  {
+    "id": 4,
+    "name": "C#",
+    "icon": "devicon:csharp",
+    "color": "#239120",
+    "url": ""
+  },
+  {
+    "id": 5,
+    "name": "React.js",
+    "icon": "logos:react",
+    "color": "#61DAFB",
+    "url": "https://react.dev/"
+  },
+  {
+    "id": 6,
+    "name": "Vue.js",
+    "icon": "logos:vue",
+    "color": "#42B883",
+    "url": "https://vuejs.org/"
+  },
   {
     "id": 7,
     "name": "PostgreSQL",
     "icon": "logos:postgresql",
-    "color": "#336791"
+    "color": "#336791",
+    "url": "https://www.postgresql.org/"
   },
   {
     "id": 8,
     "name": "MongoDB",
     "icon": "logos:mongodb-icon",
-    "color": "#47A248"
+    "color": "#47A248",
+    "url": "https://www.mongodb.com/"
   },
-  { "id": 9, "name": ".NET", "icon": "logos:dotnet", "color": "#512BD4" },
-  { "id": 10, "name": "GraphQL", "icon": "logos:graphql", "color": "#E10098" },
-  { "id": 11, "name": "Git", "icon": "logos:git-icon", "color": "#F05032" },
+  {
+    "id": 9,
+    "name": ".NET",
+    "icon": "logos:dotnet",
+    "color": "#512BD4",
+    "url": "https://dotnet.microsoft.com/en-us/"
+  },
+  {
+    "id": 10,
+    "name": "GraphQL",
+    "icon": "logos:graphql",
+    "color": "#E10098",
+    "url": "https://graphql.org/"
+  },
+  {
+    "id": 11,
+    "name": "Git",
+    "icon": "logos:git-icon",
+    "color": "#F05032",
+    "url": "https://git-scm.com/"
+  },
   {
     "id": 12,
     "name": "Docker",
     "icon": "logos:docker-icon",
-    "color": "#2496ED"
+    "color": "#2496ED",
+    "url": "https://www.docker.com/"
   },
   {
     "id": 13,
     "name": "Kubernetes",
     "icon": "logos:kubernetes",
-    "color": "#326CE5"
+    "color": "#326CE5",
+    "url": "https://kubernetes.io/"
   },
-  { "id": 14, "name": "AWS", "icon": "logos:aws", "color": "#FF9900" },
-  { "id": 15, "name": "CSS", "icon": "logos:css-3", "color": "#1572B6" },
+  {
+    "id": 14,
+    "name": "AWS",
+    "icon": "logos:aws",
+    "color": "#FF9900",
+    "url": "https://aws.amazon.com/?nc2=h_lg"
+  },
+  {
+    "id": 15,
+    "name": "CSS",
+    "icon": "logos:css-3",
+    "color": "#1572B6",
+    "url": ""
+  },
   {
     "id": 16,
     "name": "Tailwind",
     "icon": "logos:tailwindcss-icon",
-    "color": "#38B2AC"
+    "color": "#38B2AC",
+    "url": "https://tailwindcss.com/"
   },
-  { "id": 17, "name": "Bulma", "icon": "logos:bulma", "color": "#00D1B2" },
+  {
+    "id": 17,
+    "name": "Bulma",
+    "icon": "logos:bulma",
+    "color": "#00D1B2",
+    "url": "https://bulma.io/"
+  },
   {
     "id": 18,
     "name": "TanStack",
     "icon": "logos:tanstack",
-    "color": "#FF4C41"
+    "color": "#FF4C41",
+    "url": "https://tanstack.com/"
   },
-  { "id": 19, "name": "Figma", "icon": "logos:figma", "color": "#F24E1E" },
-  { "id": 20, "name": "Jira", "icon": "logos:jira", "color": "#0052CC" },
-  { "id": 21, "name": "Trello", "icon": "logos:trello", "color": "#0079BF" },
+  {
+    "id": 19,
+    "name": "Figma",
+    "icon": "logos:figma",
+    "color": "#F24E1E",
+    "url": ""
+  },
+  {
+    "id": 20,
+    "name": "Jira",
+    "icon": "logos:jira",
+    "color": "#0052CC",
+    "url": "https://www.atlassian.com/software/jira"
+  },
+  {
+    "id": 21,
+    "name": "Trello",
+    "icon": "logos:trello",
+    "color": "#0079BF",
+    "url": "https://trello.com/"
+  },
   {
     "id": 22,
     "name": "Confluence",
     "icon": "logos:confluence",
-    "color": "#0052CC"
+    "color": "#0052CC",
+    "url": "https://www.atlassian.com/software/confluence"
   },
   {
     "id": 24,
     "name": "Jest",
     "icon": "simple-icons:jest",
-    "color": "#C21325"
+    "color": "#C21325",
+    "url": "https://jestjs.io/"
   },
   {
     "id": 25,
     "name": "Playwright",
     "icon": "simple-icons:playwright",
-    "color": "#17A37F"
+    "color": "#17A37F",
+    "url": "https://playwright.dev/"
   },
   {
     "id": 23,
     "name": "Azure DevOps",
     "icon": "logos:azure-devops",
-    "color": "#0078D7"
+    "color": "#0078D7",
+    "url": "https://azure.microsoft.com/en-us/products/devops"
   }
 ]

@@ -2,8 +2,10 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 import styles from "@/components/Footer.module.css";
+import { useNavigate } from "react-router-dom";
 
 export const Footer = () => {
+  const navigate = useNavigate();
   return (
     <>
       <footer className={styles["footer-container"]}>
@@ -11,7 +13,11 @@ export const Footer = () => {
           className="socials"
           style={{ display: "flex", justifyContent: "center" }}
         >
-          <FontAwesomeIcon icon={faEnvelope} className={styles["email-icon"]} />
+          <FontAwesomeIcon
+            icon={faEnvelope}
+            className={styles["email-icon"]}
+            onClick={() => navigate("/contact")}
+          />
           <FontAwesomeIcon
             icon={faLinkedin}
             className={styles["linkedin-icon"]}
@@ -27,7 +33,13 @@ export const Footer = () => {
             }
           />
         </div>
-        <p className={styles["footer-text"]}>paulinjulia@gmail.com</p>
+        {/* <p className={styles["footer-text"]}>paulinjulia@gmail.com</p> */}
+        <a
+          href="mailto:paulinjulia@gmail.com"
+          className={styles["footer-text"]}
+        >
+          paulinjulia@gmail.com
+        </a>
       </footer>
     </>
   );

@@ -4,10 +4,15 @@
   align-items: center;
   padding: 1rem;
   margin: 1rem;
-  border-radius: 8px;
+  border-radius: 1rem;
   background-color: var(--grey);
   width: 300px;
   height: 300px;
+}
+
+.project-item:hover {
+  border: var(--lavender) 2px solid;
+  border-radius: 1rem;
 }
 
 .project-image {

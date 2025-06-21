@@ -62,7 +62,11 @@ export const HomeRoute = () => {
             <ul className={styles["tech-stack-container"]}>
               {tech.map((tech) => (
                 <li key={tech.id} className={styles["tech-stack"]}>
-                  <span title={tech.name} aria-label={tech.name}>
+                  <span
+                    title={tech.name}
+                    aria-label={tech.name}
+                    onClick={() => window.open(tech.url, "_blank")}
+                  >
                     <Icon
                       icon={tech.icon}
                       width="24"
