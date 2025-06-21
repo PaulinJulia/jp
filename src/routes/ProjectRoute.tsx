@@ -8,8 +8,25 @@ import { useNavigate } from "react-router-dom";
 export const ProjectRoute = () => {
   const text = "Projects";
   const titleText = "For fun and learning";
-
   const navigate = useNavigate();
+
+  const handleSelectedImage = (projectId: string) => {
+    const project = projects.find((project) => project.id === projectId);
+    if (project && project.url) {
+      window.open(project.url, "_blank");
+    } else {
+      console.error("URL not available for this project.");
+    }
+  };
+
+  const handleSelectedCard = (projectId: string) => {
+    const project = projects.find((project) => project.id === projectId);
+    if (project && project.github) {
+      window.open(project.github, "_blank");
+    } else {
+      console.error("URL not available for this project.");
+    }
+  };
 
   const handleContact = () => {
     navigate("/contact", { replace: true });
@@ -29,13 +46,8 @@ export const ProjectRoute = () => {
                 <ProjectItem
                   key={project.id}
                   project={project}
-                  onSelected={() => {
-                    if (project.url) {
-                      window.open(project.url, "_blank");
-                    } else {
-                      console.error("URL not available for this project.");
-                    }
-                  }}
+                  onSelectedCard={handleSelectedCard}
+                  onSelectedImage={handleSelectedImage}
                 />
               );
             })}
