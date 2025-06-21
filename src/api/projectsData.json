@@ -3,7 +3,7 @@
     "id": "1",
     "title": "Recipes",
     "description": "Favorite recipes",
-    "image": ["src/assets/guldkorn.png"],
+    "image": ["/images/guldkorn.png"],
     "url": "https://guldkornen.netlify.app/",
     "github": "https://github.com/PaulinJulia/recipes",
     "tech": [
@@ -41,7 +41,7 @@
     "id": "2",
     "title": "Workout planner with AI",
     "description": "Personalized workouts with AI.",
-    "image": ["src/assets/guldkorn.png"],
+    "image": ["/images/guldkorn.png"],
     "url": "",
     "github": "https://github.com/PaulinJulia/ai",
     "tech": [
@@ -93,7 +93,7 @@
     "id": "3",
     "title": "Chat",
     "description": "Chat with SignalR",
-    "image": ["src/assets/chat.png"],
+    "image": ["/images/chat.png"],
     "url": "https://signalrchat-kgrw.onrender.com/",
     "github": "https://github.com/PaulinJulia/signalR",
     "tech": [
@@ -145,7 +145,7 @@
     "id": "4",
     "title": "Stock market",
     "description": "Stock inspiration",
-    "image": ["src/assets/stock-project.png"],
+    "image": ["/images/stock-project.png"],
     "url": "",
     "github": "https://github.com/PaulinJulia/my-vue",
     "tech": [
@@ -183,7 +183,7 @@
     "id": "5",
     "title": "Jobchaser",
     "description": "See job ads",
-    "image": ["src/assets/jobchaser.png"],
+    "image": ["/images/jobchaser.png"],
     "url": "https://jobchaser987.netlify.app/",
     "github": "https://github.com/PaulinJulia/jobchaser",
     "tech": [
@@ -221,7 +221,7 @@
     "id": "6",
     "title": "Todo list",
     "description": "Todo list",
-    "image": ["src/assets/Todo.png"],
+    "image": ["/images/Todo.png"],
     "url": "",
     "github": "https://github.com/PaulinJulia/Todo",
     "tech": [
@@ -259,7 +259,7 @@
     "id": "7",
     "title": "Dashboard",
     "description": "Make notes, weather",
-    "image": ["src/assets/default-dashboard.png"],
+    "image": ["/images/default-dashboard.png"],
     "url": "",
     "github": "https://github.com/PaulinJulia/Dashboard",
     "tech": [
