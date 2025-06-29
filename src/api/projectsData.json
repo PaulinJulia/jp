@@ -218,44 +218,6 @@
     ]
   },
   {
-    "id": "6",
-    "title": "Todo list",
-    "description": "Todo list",
-    "image": ["/images/Todo.png"],
-    "url": "",
-    "github": "https://github.com/PaulinJulia/Todo",
-    "tech": [
-      {
-        "id": "2",
-        "name": "TypeScript",
-        "icon": "logos:typescript-icon",
-        "color": "#3178C6",
-        "url": "https://www.typescriptlang.org/"
-      },
-      {
-        "id": "26",
-        "name": "HTML",
-        "icon": "logos:html-5",
-        "color": "#E34F26",
-        "url": ""
-      },
-      {
-        "id": "15",
-        "name": "CSS",
-        "icon": "logos:css-3",
-        "color": "#1572B6",
-        "url": ""
-      },
-      {
-        "id": "27",
-        "name": "Vite",
-        "icon": "logos:vitejs",
-        "color": "#646CFF",
-        "url": ""
-      }
-    ]
-  },
-  {
     "id": "7",
     "title": "Dashboard",
     "description": "Dashboard",

@@ -1,0 +1,60 @@
+.contact-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: 2rem;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  width: 100%;
+  max-width: 250px;
+  background-color: var(--black);
+  padding: 2rem;
+}
+
+.contact-form-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-form-label {
+  color: var(--white);
+  margin-bottom: 0.5rem;
+}
+
+.contact-form-name-email {
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid var(--white);
+  border-radius: 4px;
+  background-color: var(--light-black);
+  color: var(--white);
+}
+
+.contact-form-textarea {
+  width: 100%;
+  height: 100px;
+  padding: 0.5rem;
+  border: 1px solid var(--white);
+  border-radius: 4px;
+  background-color: var(--light-black);
+  color: var(--white);
+}
+
+.contact-form-submit-button {
+  background-color: var(--lavender);
+  color: var(--black);
+  border: none;
+  padding: 0.8rem 1.5rem;
+  border-radius: 4px;
+}
+
+.contact-form-submit-button:hover {
+  cursor: pointer;
+  background-color: var(--mint-green);
+}
