@@ -29,5 +29,10 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-    background-color: var(--light-black);
+  background-color: var(--light-black);
+  text-decoration: none;
+}
+
+.contact-text:hover {
+  text-decoration: underline;
 }

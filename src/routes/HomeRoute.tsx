@@ -35,7 +35,6 @@ export const HomeRoute = () => {
         <section>
           <article className={styles["welcome"]}>
             <h1>Welcome to My Portfolio</h1>
-            <p>Explore my projects and skills.</p>
             <h3 className={styles["about-me"]}>About Me</h3>
             <p className={styles["about-me-intro"]}>
               Developer with a passion for building clean, scalable, and

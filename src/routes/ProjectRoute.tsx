@@ -3,12 +3,11 @@ import { ProjectItem } from "@/components/ProjectItem";
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
 import styles from "@/routes/ProjectRoute.module.css";
-import { useNavigate } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 export const ProjectRoute = () => {
   const text = "Projects";
   const titleText = "For fun and learning";
-  const navigate = useNavigate();
 
   const handleSelectedImage = (projectId: string) => {
     const project = projects.find((project) => project.id === projectId);
@@ -28,15 +27,12 @@ export const ProjectRoute = () => {
     }
   };
 
-  const handleContact = () => {
-    navigate("/contact", { replace: true });
-  };
   return (
     <>
       <Header text={text} titleText={titleText} />
       <main>
         <article className={styles["project-text"]}>
-          <h1>Welcome to My Projects</h1>
+          <h3>Welcome to My Projects</h3>
           <p>Explore my projects and skills.</p>
         </article>
         <article className={styles["project-article"]}>
@@ -52,14 +48,9 @@ export const ProjectRoute = () => {
               );
             })}
           </ul>
-          <p>
-            <p
-              className={styles["contact-text"]}
-              onClick={() => handleContact()}
-            >
-              For more information, please contact me.
-            </p>
-          </p>
+          <Link to="/contact" className={styles["contact-text"]}>
+            For more information, please contact me.
+          </Link>
         </article>
       </main>
       <Footer />
