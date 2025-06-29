@@ -12,17 +12,39 @@ export const AboutRoute = () => {
     <>
       <Header text={text} titleText={titleText} />
       <main>
-        <div>
-          <p className={styles["about-text"]}>
-            Hi! I'm Julia, a fullstack JavaScript developer with a creative edge
-            and a background in fashion and pattern making. After years of
-            working hands-on in the fashion industry, I transitioned into tech
-            to explore my passion for problem solving and building smart digital
-            solutions. I'm currently diving deep into React, Node.js, and cloud
-            deployment, and I love creating user-friendly applications that
-            bridge design and functionality. Whether it's a mobile app for
-            internal tools or a sleek web interface. I'm all about making things
-            that work well and look good.
+        <div className={styles["about-text"]}>
+          <p className={styles["about-text-column"]}>
+            Hi! My name is Julia and I'm a full-stack developer with a
+            background in the fashion industry and a newfound passion for
+            technology. After several years working as a pattern maker, I
+            decided to change paths and pursue my growing interest in
+            programming. I recently completed a two-year education in full-stack
+            JavaScript, where I mainly worked with technologies like React, Vue,
+            Node.js, TypeScript, PostgreSQL and MongoDB.
+          </p>
+          <p className={styles["about-text-column"]}>
+            What drives me the most is building useful and user-friendly
+            solutions, especially when it involves smart problem-solving and
+            writing clean, scalable and maintainable code. Right now, I have a
+            strong interest in backend development with .NET and C#, as well as
+            exploring DevOps and CI/CD practices. That said, I enjoy the variety
+            that full-stack development offers.
+          </p>
+          <p className={styles["about-text-column"]}>
+            I thrive in collaborative environments and enjoy working in agile
+            teams where communication and learning from each other are key. I'm
+            curious, driven and not afraid of new challenges.
+          </p>
+          <p className={styles["about-text-column"]}>
+            Outside of coding, I'm a structured, ambitious and hands-on person
+            whether it's creating, hiking in nature or learning something
+            completely new. I value simplicity, clarity and constant growth,
+            both in code and in life.
+          </p>
+          <p className={styles["about-text-column"]}>
+            If you're looking for a dedicated developer who's easy to work with
+            and enjoys having fun along the way, feel free to reach out. Let's
+            build something great together!
           </p>
         </div>
         <div>

@@ -40,8 +40,8 @@
   {
     "id": "2",
     "title": "Workout planner with AI",
-    "description": "Personalized workouts with AI.",
-    "image": ["/images/guldkorn.png"],
+    "description": "Personalized workouts with AI",
+    "image": ["/images/body-balance.png"],
     "url": "",
     "github": "https://github.com/PaulinJulia/ai",
     "tech": [
@@ -182,7 +182,7 @@
   {
     "id": "5",
     "title": "Jobchaser",
-    "description": "See job ads",
+    "description": "Job ads",
     "image": ["/images/jobchaser.png"],
     "url": "https://jobchaser987.netlify.app/",
     "github": "https://github.com/PaulinJulia/jobchaser",
@@ -258,7 +258,7 @@
   {
     "id": "7",
     "title": "Dashboard",
-    "description": "Make notes, weather",
+    "description": "Dashboard",
     "image": ["/images/default-dashboard.png"],
     "url": "",
     "github": "https://github.com/PaulinJulia/Dashboard",
