@@ -30,7 +30,7 @@ export const ProjectRoute = () => {
   return (
     <>
       <Header text={text} titleText={titleText} />
-      <main>
+      <main className={styles["project-container"]}>
         <article className={styles["project-text"]}>
           <h3>Welcome to My Projects</h3>
           <p className={styles["intro-text"]}>
@@ -50,10 +50,10 @@ export const ProjectRoute = () => {
               );
             })}
           </ul>
-          <Link to="/contact" className={styles["contact-text"]}>
-            For more information, please contact me.
-          </Link>
         </article>
+        <Link to="/contact" className={styles["contact-text"]}>
+          For more information, please contact me.
+        </Link>
       </main>
       <Footer />
     </>
