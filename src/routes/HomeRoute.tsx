@@ -37,7 +37,7 @@ export const HomeRoute = () => {
             <h1>Welcome to My Portfolio</h1>
             <h3 className={styles["about-me"]}>About Me</h3>
             <p className={styles["about-me-intro"]}>
-              Developer with a passion for building clean, scalable, and
+              Developer with a passion for building clean, scalable and
               maintainable solutions that are easy to use. I love to
               collaborate, learn and create meaningful things, both in code and
               beyond.
@@ -57,7 +57,7 @@ export const HomeRoute = () => {
               })}
             </ul>
           </article>
-          <article>
+          <article className={styles["tech-stack-wrapper"]}>
             <h3 className={styles["tech-stack-title"]}>Tools & Technologies</h3>
             <ul className={styles["tech-stack-container"]}>
               {tech.map((tech) => (

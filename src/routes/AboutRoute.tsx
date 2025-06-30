@@ -11,7 +11,7 @@ export const AboutRoute = () => {
   return (
     <>
       <Header text={text} titleText={titleText} />
-      <main>
+      <main className={styles["about-container"]}>
         <div className={styles["about-text"]}>
           <p className={styles["about-text-column"]}>
             Hi! My name is Julia and I'm a full-stack developer with a

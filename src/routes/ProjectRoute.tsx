@@ -33,7 +33,9 @@ export const ProjectRoute = () => {
       <main>
         <article className={styles["project-text"]}>
           <h3>Welcome to My Projects</h3>
-          <p>Explore my projects and skills.</p>
+          <p className={styles["intro-text"]}>
+            Explore my projects and skills.
+          </p>
         </article>
         <article className={styles["project-article"]}>
           <ul className={styles["projects-list"]}>

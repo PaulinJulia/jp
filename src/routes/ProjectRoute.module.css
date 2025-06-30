@@ -7,6 +7,11 @@
   align-items: center;
   justify-content: center;
   cursor: pointer;
+  background-color: var(--light-black);
+}
+
+.intro-text {
+  font-weight: lighter;
 }
 .project-article {
   background-color: var(--black);

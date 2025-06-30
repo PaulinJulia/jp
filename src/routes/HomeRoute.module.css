@@ -5,15 +5,14 @@
   justify-content: center;
   padding: 2rem;
   color: var(--white);
-  margin: 0 2rem;
+  background-color: var(--light-black);
 }
 .about-me {
   padding-top: 1rem;
 }
 
 .about-me-intro {
-  padding: 0 3rem;
-  text-align: center;
+  text-align: left;
 }
 
 .projects {
@@ -35,10 +34,14 @@
   gap: 1rem;
 }
 
+.tech-stack-wrapper {
+  background-color: var(--light-black);
+  padding: 2rem;
+}
+
 .tech-stack-title {
   text-align: center;
   color: var(--white);
-  margin-top: 2rem;
 }
 
 .tech-stack-container {
