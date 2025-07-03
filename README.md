@@ -17,4 +17,4 @@ https://juliapaulin.netlify.app/
 ## Contact
 If you’re curious about any of the projects or would like to get in touch, feel free to reach out!  
 
-email: paulinjulia@gmail.com.se
+email: paulinjulia@gmail.com
