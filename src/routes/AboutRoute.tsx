@@ -26,7 +26,7 @@ export const AboutRoute = () => {
             What drives me the most is building useful and user-friendly
             solutions, especially when it involves smart problem-solving and
             writing clean, scalable and maintainable code. Right now, I have a
-            strong interest in backend development with .NET and C#, as well as
+            interest in backend development with .NET and C#, as well as
             exploring DevOps and CI/CD practices. That said, I enjoy the variety
             that full-stack development offers.
           </p>
@@ -48,6 +48,13 @@ export const AboutRoute = () => {
           </p>
         </div>
         <div>
+          <a
+            href="/CV.pdf"
+            download="JuliaPaulin-CV.pdf"
+            className={styles["contact-link"]}
+          >
+            Download my CV
+          </a>
           <Link to="/contact" className={styles["contact-link"]}>
             Contact Me
           </Link>
