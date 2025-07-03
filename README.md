@@ -11,6 +11,8 @@ Welcome to my portfolio! This repository showcases a selection of projects I’v
 ## About Me
 I’m a curious and solution-oriented developer with an interest in both frontend and backend development. I enjoy working in cross-functional teams and am passionate about creating intuitive user experiences, writing maintainable code and continuously learning new technologies.
 
+https://juliapaulin.netlify.app/
+
 
 ## Contact
 If you’re curious about any of the projects or would like to get in touch, feel free to reach out!  
