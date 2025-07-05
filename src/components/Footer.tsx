@@ -16,11 +16,13 @@ export const Footer = () => {
           <FontAwesomeIcon
             icon={faEnvelope}
             className={styles["email-icon"]}
+            title="Email"
             onClick={() => navigate("/contact")}
           />
           <FontAwesomeIcon
             icon={faLinkedin}
             className={styles["linkedin-icon"]}
+            title="LinkedIn"
             onClick={() =>
               window.open("https://www.linkedin.com/in/julia-paulin/", "_blank")
             }
@@ -28,6 +30,7 @@ export const Footer = () => {
           <FontAwesomeIcon
             icon={faGithub}
             className={styles["github-icon"]}
+            title="GitHub"
             onClick={() =>
               window.open("https://github.com/PaulinJulia", "_blank")
             }

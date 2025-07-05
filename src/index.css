@@ -8,7 +8,7 @@
   --white: rgb(248, 244, 244);
   --black: rgb(25, 24, 24);
   --light-black: rgb(39, 39, 42);
-  --dark-grey:rgb(35, 34, 34);
+  --dark-grey: rgb(35, 34, 34);
   --grey: rgb(161, 161, 170);
 }
 
@@ -40,6 +40,19 @@ main {
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
+}
+button {
+  display: flex;
+  justify-content: center;
+  color: var(--lavender);
+  background-color: var(--black);
+  margin: 1rem;
+  padding: 1rem 2rem;
+}
+
+button:hover {
+  text-decoration: underline;
+  cursor: pointer;
 }
 
 /* :root {

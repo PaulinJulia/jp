@@ -12,7 +12,7 @@ export const AboutRoute = () => {
     <>
       <Header text={text} titleText={titleText} />
       <main className={styles["about-container"]}>
-        <div className={styles["about-text"]}>
+        <section className={styles["about-text"]}>
           <p className={styles["about-text-column"]}>
             Hi! My name is Julia and I'm a full-stack developer with a
             background in the fashion industry and a newfound passion for
@@ -46,8 +46,8 @@ export const AboutRoute = () => {
             and enjoys having fun along the way, feel free to reach out. Let's
             build something great together!
           </p>
-        </div>
-        <div>
+        </section>
+        <section>
           <a
             href="/CV.pdf"
             download="JuliaPaulin-CV.pdf"
@@ -58,7 +58,7 @@ export const AboutRoute = () => {
           <Link to="/contact" className={styles["contact-link"]}>
             Contact Me
           </Link>
-        </div>
+        </section>
         <article>
           <ul className={styles["feedback-list"]}>
             {feedback.map((text) => (

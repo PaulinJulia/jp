@@ -7,8 +7,14 @@
 .github-icon {
   font-size: 2rem;
   padding: 2rem 1rem;
-  cursor: pointer;
   color: var(--white);
+}
+
+.email-icon:hover,
+.linkedin-icon:hover,
+.github-icon:hover {
+  color: var(--lavender);
+  cursor: pointer;
 }
 
 .footer-text {
