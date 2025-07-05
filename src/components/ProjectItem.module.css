@@ -9,6 +9,7 @@
   height: 400px;
   border: 2px solid var(--black);
   transition: border-color 0.2s;
+  overflow: hidden;
 }
 
 .project-item:hover {
@@ -22,6 +23,7 @@
   object-fit: cover;
   border-top-left-radius: 1rem;
   border-top-right-radius: 1rem;
+  transition: transform 0.2s ease-in-out;
 }
 
 .project-description {
@@ -30,9 +32,11 @@
   padding: 1rem;
 }
 
-.project-description:hover, .project-image:hover {
+.project-description:hover,
+.project-image:hover {
   cursor: pointer;
   text-decoration: underline;
+  transform: scale(1.05);
 }
 
 .github-icon {
