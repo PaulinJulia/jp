@@ -5,6 +5,7 @@ import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
 import styles from "@/routes/HomeRoute.module.css";
 import { Icon } from "@iconify/react";
+import { Link } from "react-router-dom";
 
 export const HomeRoute = () => {
   const text = "Julia Paulin";
@@ -41,7 +42,9 @@ export const HomeRoute = () => {
               collaborate, learn and create meaningful things, both in code and
               beyond.
             </p>
-            <button>More about me</button>
+            <Link to="/about" className={styles["contact-link"]}>
+              More about me
+            </Link>
           </article>
           <article className={styles["projects"]}>
             <ul className={styles["projects-list"]}>

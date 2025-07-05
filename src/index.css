@@ -41,19 +41,6 @@ main {
   background-size: cover;
   position: relative;
 }
-button {
-  display: flex;
-  justify-content: center;
-  color: var(--lavender);
-  background-color: var(--black);
-  margin: 1rem;
-  padding: 1rem 2rem;
-}
-
-button:hover {
-  text-decoration: underline;
-  cursor: pointer;
-}
 
 /* :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;

@@ -16,6 +16,24 @@
   padding-top: 1rem;
 }
 
+.contact-link {
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+  color: var(--lavender);
+  background-color: var(--black);
+  margin-top: 1rem;
+  padding: 1rem 2rem;
+  border-bottom: 2px outset rgb(0, 0, 0);
+  border-left:   2px outset rgb(0, 0, 0);
+  border-right:  2px outset rgb(0, 0, 0);
+  border-top:    2px outset rgb(0, 0, 0);
+}
+
+.contact-link:hover {
+  text-decoration: underline;
+}
+
 .projects {
   display: flex;
   flex-direction: column;
@@ -61,6 +79,7 @@
 @media (min-width: 768px) {
   .about-me-intro {
     text-align: center;
-    padding: 0 10rem;
+    padding: 1rem;
+    margin: 0 10rem;
   }
 }
