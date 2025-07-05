@@ -22,13 +22,17 @@
   object-fit: cover;
   border-top-left-radius: 1rem;
   border-top-right-radius: 1rem;
-  cursor: pointer;
 }
 
 .project-description {
   color: var(--black);
   font-weight: bold;
   padding: 1rem;
+}
+
+.project-description:hover, .project-image:hover {
+  cursor: pointer;
+  text-decoration: underline;
 }
 
 .github-icon {

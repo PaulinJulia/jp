@@ -20,7 +20,12 @@ export const ProjectItem = ({
             title={project.title}
             onClick={() => onSelectedImage(project.id)}
           />
-          <p className={styles["project-description"]}>{project.description}</p>
+          <p
+            className={styles["project-description"]}
+            onClick={() => onSelectedImage(project.id)}
+          >
+            {project.description}
+          </p>
           <FontAwesomeIcon
             icon={faGithub}
             title={project.github}
