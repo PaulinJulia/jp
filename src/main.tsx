@@ -4,7 +4,7 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import { ProjectRoute } from "./routes/ProjectRoute";
 import RootRoute from "./routes/RootRoute";
 import ErrorRoute from "./routes/ErrorRoute";
-import { HomeRoute, AboutRoute, ContactRoute } from "@/routes/index"
+import { HomeRoute, AboutRoute, ContactRoute } from "@/routes/index";
 import "./index.css";
 
 const router = createBrowserRouter([

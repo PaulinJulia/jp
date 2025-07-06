@@ -46,6 +46,11 @@ export const AboutRoute = () => {
             and enjoys having fun along the way, feel free to reach out. Let's
             build something great together!
           </p>
+          <img
+            src="/public/images/Group 1.png"
+            alt="About me"
+            className={styles["about-images"]}
+          />
         </section>
         <section>
           <a

@@ -2,17 +2,30 @@
   background-color: var(--light-black);
   padding-top: 1rem;
 }
+.about-images {
+  width: 200px;
+  height: auto;
+  max-width: 600px;
+  margin: 0 auto;
+  display: block;
+  padding: 1rem;
+}
+
 .about-text {
-  font-size: 1.2rem;
+  font-size: 1rem;
   color: var(--white);
   display: flex;
   justify-content: left;
   align-items: center;
   flex-direction: column;
+  font-family: "Inter", "Roboto", "Open Sans", "Helvetica Neue", Arial,
+    sans-serif;
+  line-height: 1.7;
+  letter-spacing: 0.02em;
 }
 
 .about-text-column {
-  padding: 1rem;
+  padding: 1rem 2rem;
 }
 
 .contact-link {
@@ -24,9 +37,9 @@
   margin: 2rem;
   padding: 1rem;
   border-bottom: 2px outset rgb(0, 0, 0);
-  border-left:   2px outset rgb(0, 0, 0);
-  border-right:  2px outset rgb(0, 0, 0);
-  border-top:    2px outset rgb(0, 0, 0);
+  border-left: 2px outset rgb(0, 0, 0);
+  border-right: 2px outset rgb(0, 0, 0);
+  border-top: 2px outset rgb(0, 0, 0);
 }
 
 .contact-link:hover {
