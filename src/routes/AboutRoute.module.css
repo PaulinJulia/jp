@@ -54,6 +54,7 @@
   color: var(--white);
   margin: 0 1rem;
   list-style: none;
+  font-style: italic;
 }
 
 @media (min-width: 768px) {

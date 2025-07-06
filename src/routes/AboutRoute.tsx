@@ -68,7 +68,7 @@ export const AboutRoute = () => {
           <ul className={styles["feedback-list"]}>
             {feedback.map((text) => (
               <li key={text.id} className={styles["feedback-item"]}>
-                {text.description}
+                &quot;{text.description}&quot;
               </li>
             ))}
           </ul>
