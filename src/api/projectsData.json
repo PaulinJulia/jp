@@ -3,7 +3,7 @@
     "id": "1",
     "title": "Recipes",
     "description": "Favorite recipes",
-    "image": ["/images/guldkorn.png"],
+    "image": ["/images/guldkornen.png"],
     "url": "https://guldkornen.netlify.app/",
     "github": "https://github.com/PaulinJulia/recipes",
     "tech": [
