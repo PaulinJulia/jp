@@ -7,6 +7,7 @@ import styles from "@/routes/HomeRoute.module.css";
 import { Icon } from "@iconify/react";
 import { Link } from "react-router-dom";
 
+
 export const HomeRoute = () => {
   const text = "Julia Paulin";
   const titleText = "Full-Stack Developer";
