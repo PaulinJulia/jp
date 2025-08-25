@@ -2,13 +2,14 @@
   background-color: var(--light-black);
   padding-top: 1rem;
 }
-.about-images {
+.about-image {
   width: 200px;
   height: auto;
   max-width: 600px;
   margin: 0 auto;
   display: block;
   padding: 1rem;
+  border-radius: 50%;
 }
 
 .about-text {
