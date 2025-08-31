@@ -25,6 +25,11 @@
   border-top-right-radius: 1rem;
   transition: transform 0.2s ease-in-out;
 }
+.project-image:hover {
+  cursor: pointer;
+  text-decoration: underline;
+  transform: scale(1.05);
+}
 
 .project-description {
   color: var(--black);
@@ -32,11 +37,9 @@
   padding: 1rem;
 }
 
-.project-description:hover,
-.project-image:hover {
+.project-description:hover {
   cursor: pointer;
   text-decoration: underline;
-  transform: scale(1.05);
 }
 
 .github-icon {
