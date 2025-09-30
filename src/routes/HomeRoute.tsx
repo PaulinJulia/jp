@@ -7,10 +7,9 @@ import styles from "@/routes/HomeRoute.module.css";
 import { Icon } from "@iconify/react";
 import { Link } from "react-router-dom";
 
-
 export const HomeRoute = () => {
   const text = "Julia Paulin";
-  const titleText = "Full-Stack Developer";
+  const titleText = "Full Stack Developer";
 
   const handleSelectedImage = (projectId: string) => {
     const project = projects.find((project) => project.id === projectId);
@@ -36,7 +35,7 @@ export const HomeRoute = () => {
       <main>
         <section>
           <article className={styles["welcome"]}>
-            <h1>Welcome to My Portfolio</h1>
+            <h1 className={styles["welcome-text"]}>Welcome to My Portfolio</h1>
             <p className={styles["about-me-intro"]}>
               Developer with a passion for building clean, scalable and
               maintainable solutions that are easy to use. I love to
