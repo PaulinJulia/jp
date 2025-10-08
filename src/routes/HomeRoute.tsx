@@ -39,7 +39,7 @@ export const HomeRoute = () => {
             <p className={styles["about-me-intro"]}>
               Developer with a passion for building clean, scalable and
               maintainable solutions that are easy to use. I love to
-              collaborate, learn and create meaningful things, both in code and
+              collaborate, learn and create meaningful things both in code and
               beyond.
             </p>
             <Link to="/about" className={styles["contact-link"]}>
